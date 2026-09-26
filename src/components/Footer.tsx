@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Phone, MessageCircle } from 'lucide-react';
+import { ArrowUpRight, Phone, MessageCircle, Mail } from 'lucide-react';
 import { agencyData, buildWhatsAppUrl } from '../config/agencyData';
 import { InstagramIcon } from './InstagramIcon';
 
@@ -165,6 +165,23 @@ export const Footer: React.FC = () => {
                   <div>
                     <div className="text-xs font-semibold text-white">Call Agency</div>
                     <div className="text-[11px] font-mono text-slate-400">{contact.displayPhone}</div>
+                  </div>
+                </div>
+                <ArrowUpRight className="w-4 h-4 text-slate-400 group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+
+              {/* Email */}
+              <a
+                href={`mailto:${contact.email}`}
+                className="flex items-center justify-between p-3 rounded-xl bg-white/[0.03] hover:bg-white/[0.06] border border-white/10 transition-colors group"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center">
+                    <Mail className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-semibold text-white">Email</div>
+                    <div className="text-[11px] font-mono text-slate-400">{contact.email}</div>
                   </div>
                 </div>
                 <ArrowUpRight className="w-4 h-4 text-slate-400 group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

@@ -129,7 +129,7 @@ export const Contact: React.FC = () => {
       icon: InstagramIcon,
       href: contact.instagramUrl,
       color: 'hover:text-pink-400 hover:border-pink-500/40',
-      badge: '@creovaa',
+      badge: contact.instagramHandle,
       isExternal: true,
     },
     {

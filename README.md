@@ -43,11 +43,11 @@ contact: {
   phoneTel: '+919876543210',
 
   // Instagram Profile URL and Handle
-  instagramUrl: 'https://instagram.com/creovaa',
-  instagramHandle: '@creovaa',
+  instagramUrl: 'https://www.instagram.com/creovaamedia?utm_source=qr&stkn=ZWJ4b2R0c2k4YnIz',
+  instagramHandle: '@creovaamedia',
 
   // Email address
-  email: 'contact@creovaa.com',
+  email: 'creovaamedia@gmail.com',
 
   location: 'Available Worldwide / Remote & On-Site',
 }

@@ -28,11 +28,11 @@ export const agencyData: AgencyData = {
     phoneTel: '+919787070553',
 
     // Instagram URL and Handle
-    instagramUrl: 'https://instagram.com/creovaa', // <-- REPLACE WITH YOUR INSTAGRAM URL
-    instagramHandle: '@creovaa',
+    instagramUrl: 'https://www.instagram.com/creovaamedia?utm_source=qr&stkn=ZWJ4b2R0c2k4YnIz',
+    instagramHandle: '@creovaamedia',
 
     // Email address
-    email: 'contact@creovaa.com', // <-- REPLACE WITH YOUR EMAIL ADDRESS
+    email: 'creovaamedia@gmail.com',
 
     location: 'Available Worldwide / Remote & On-Site',
   },
